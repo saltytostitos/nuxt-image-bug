@@ -5,6 +5,7 @@
   "scripts": {
     "build": "nuxt build",
     "dev": "nuxt dev",
+    "build:cf": "nuxt build --preset=cloudflare_pages",
     "generate": "nuxt build",
     "preview": "npx nuxthub preview",
     "deploy": "npx nuxthub deploy",

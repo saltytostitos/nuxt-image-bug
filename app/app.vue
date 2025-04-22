@@ -1,3 +1,6 @@
+<script setup lang="ts">
+console.log('IMPORT META', import.meta)
+</script>
 <template>
   <UContainer class="mt-20 space-y-6">
     <ul>
@@ -17,7 +20,7 @@
     </div>
     <div>
       <h2>NuxtPicture added provider</h2>
-      <NuxtPicture src="/pic.png" alt="Image Here" quality="1" densities="x1" sizes="250px" provider="ipxStatic" />
+      <NuxtPicture src="/pic.png" alt="Image Here" quality="1" densities="x1" sizes="250px" />
     </div>
   </UContainer>
 </template>
